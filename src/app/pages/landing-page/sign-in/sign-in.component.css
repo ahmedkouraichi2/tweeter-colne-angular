@@ -1,0 +1,59 @@
+.column-left {
+  float: left;
+  width: 50%;
+
+}
+
+.column-right {
+  float: right;
+  width: 50%;
+  background-image: url("../../../../assets/images/backgrpund.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover; /* optional, to cover the entire background */
+  height: 100vh;
+}
+
+
+
+
+body, html{
+    height: 100vh;
+    font-family: Roboto;
+}
+
+.container{
+
+
+}
+
+.container form{
+
+}
+
+form label {
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: 3px;
+    width: 200px;
+}
+input[type=text], input[type=email], input[type=password], select, textarea {
+	width: 40%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+input[type="submit"] {
+	background-color: #1d9bf0;
+	color: #fff;
+	padding: 15px 50px;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
