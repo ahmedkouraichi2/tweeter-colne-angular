@@ -4,7 +4,9 @@
   margin-top: 10px;
 }
 
-
+li{
+  margin-left: 80px;
+}
 
 .active{
   filter: invert(49%) sepia(95%) saturate(2103%) hue-rotate(179deg) brightness(97%) contrast(93%);
@@ -40,6 +42,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
 }
 
 @media screen and (max-width: 1550px){
@@ -83,4 +89,19 @@
 .logout-btn:hover{
   cursor: pointer;
   background-color: rgb(71, 71, 71);
+}
+.sidebar-item-icon{
+  display:flex ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+
+}
+
+.flex-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
 }
